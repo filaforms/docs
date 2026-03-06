@@ -104,7 +104,7 @@ Features
   Integrations
 
   #description
-  Connect forms to Stripe, Google Sheets, Webhooks, Zapier, Make, n8n, and more via the optional integrations package.
+  Connect forms to Stripe, Google Sheets, Webhooks, Zapier, and more via the optional integrations package.
   :::
 ::
 
