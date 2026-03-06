@@ -49,7 +49,7 @@ Features
   Drag-and-Drop Builder
 
   #description
-  Visual form builder with live preview. 24+ field types including text, email, file upload, signature, line items, rich editor, and more.
+  Visual form builder with live preview. 25+ field types including text, email, file upload, signature, line items, rich editor, and more.
   :::
 
   :::u-page-feature
@@ -118,6 +118,7 @@ Packages
     ---
     title: filaforms/core
     icon: i-lucide-box
+    to: /core-features/form-builder
     ---
     Form builder, submissions, notifications, analytics, public forms.
     :::
