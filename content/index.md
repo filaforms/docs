@@ -1,12 +1,12 @@
 ---
-title: FilaForms Integrations
+title: FilaForms
 navigation: false
 ---
 
 ::u-page-hero
 ---
-title: FilaForms Integrations
-description: Connect your forms to payment processors, CRMs, spreadsheets, webhooks, and more.
+title: FilaForms Documentation
+description: Self-hosted form builder for Filament. Drag-and-drop builder, conditional logic, multi-step forms, file uploads, payments, integrations, and more.
 ---
 
 #links
