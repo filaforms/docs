@@ -29,7 +29,7 @@ Drag-and-drop builder, conditional logic, multi-step forms, file uploads, paymen
   color: neutral
   icon: simple-icons:github
   size: xl
-  to: https://github.com/filaforms/core
+  to: https://github.com/filaforms/docs
   variant: outline
   ---
   GitHub
