@@ -18,7 +18,7 @@ Drag-and-drop builder, conditional logic, multi-step forms, file uploads, paymen
   ---
   color: neutral
   size: xl
-  to: /getting-started
+  to: /getting-started/installation
   trailing-icon: i-lucide-arrow-right
   ---
   Get started
