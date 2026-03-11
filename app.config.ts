@@ -1,7 +1,7 @@
 export default defineAppConfig({
     docus: {
-        title: 'FilaForms Integrations',
-        description: 'Connect your FilaForms forms to payment processors, CRMs, spreadsheets, and 85+ services.',
+        title: 'FilaForms Documentation',
+        description: 'Documentation for FilaForms — the self-hosted form builder for Laravel Filament.',
     },
     ui: {
         colors: {
