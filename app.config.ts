@@ -1,4 +1,5 @@
 export default defineAppConfig({
+    github: false,
     docus: {
         title: 'FilaForms Documentation',
         description: 'Documentation for FilaForms — the self-hosted form builder for Laravel Filament.',
