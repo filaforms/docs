@@ -30,7 +30,7 @@ jobs:
       - name: Generate static site
         run: npx nuxt build --preset github_pages
         env:
-          NUXT_APP_BASE_URL: /docs/
+          NUXT_APP_BASE_URL: /
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
