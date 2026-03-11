@@ -6,7 +6,7 @@ seo:
 
 ::u-page-hero
 #title
-FilaForms
+FilaForms Docs
 
 #description
 Self-hosted form builder for Laravel Filament.

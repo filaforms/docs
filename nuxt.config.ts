@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     modules: ['@nuxt/image'],
     devtools: { enabled: true },
     site: {
-        name: 'FilaForms',
+        name: 'FilaForms Docs',
     },
     app: {
         baseURL,
