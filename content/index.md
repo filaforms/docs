@@ -34,16 +34,6 @@ Drag-and-drop builder, conditional logic, multi-step forms, file uploads, paymen
   Get FilaForms
   :::
 
-  :::u-button
-  ---
-  color: neutral
-  icon: simple-icons:github
-  size: xl
-  to: https://github.com/filaforms/docs
-  variant: outline
-  ---
-  GitHub
-  :::
 ::
 
 ::u-page-section
