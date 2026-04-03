@@ -4,6 +4,9 @@ export default defineAppConfig({
         title: 'FilaForms Docs',
         description: 'Documentation for FilaForms — the self-hosted form builder for Laravel Filament.',
     },
+    socials: {
+        filaforms: 'https://filaforms.app',
+    },
     ui: {
         colors: {
             primary: 'indigo',
