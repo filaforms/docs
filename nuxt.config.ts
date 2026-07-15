@@ -40,5 +40,13 @@ export default defineNuxtConfig({
     },
     nitro: {
         preset: 'github_pages',
+        prerender: {
+            // Seed the crawler at the real first page rather than /, because the
+            // / route emits a meta-refresh that Nitro can't follow. crawlLinks
+            // then walks the rest of the docs via the sidebar nav.
+            routes: ['/getting-started/installation'],
+            crawlLinks: true,
+            failOnError: false,
+        },
     },
 })
