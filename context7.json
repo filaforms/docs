@@ -1,0 +1,16 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "FilaForms",
+  "description": "Self-hosted form builder for Laravel, shipped as a Filament plugin. Visual builder, 25+ field types, conditional logic, multi-step forms, submissions, analytics, and notifications inside your own application.",
+  "folders": ["content"],
+  "excludeFolders": [".github", "dist", "node_modules", "public"],
+  "excludeFiles": ["README.md"],
+  "rules": [
+    "FilaForms installs as a Filament plugin with FilaFormsPlugin::make(); it is not a hosted service and has no cloud version.",
+    "Forms are built visually in the Filament panel. Do not write a Filament schema by hand to create a FilaForms form.",
+    "Every submission dispatches FilaForms\\Core\\Events\\FormSubmitted with readonly $form and $submission properties.",
+    "Submitted values live on $submission->data, which is cast to an array. Uploaded files are stored on the configured filesystem disk, so data holds paths.",
+    "Form and FormSubmission models use ULID primary keys.",
+    "Public forms resolve through the packaged filaforms.public.show route; build links with getFormUrl() rather than by hand."
+  ]
+}
